@@ -45,5 +45,6 @@ let package = Package(
             sources: ["MapKit"],
             resources: [.copy("Resources/PrivacyInfo.xcprivacy")]
         )
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
